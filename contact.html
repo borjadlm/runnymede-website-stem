@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-contact">
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Contact US</h1>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="contact-container">
+            <form id="contactForm">
+                <div class="styled-input wide">
+                    <input type="text" id="name" required>
+                    <label>Name and Surname</label>
+                </div>
+                <div class="styled-input">
+                    <input type="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="styled-input wide">
+                    <textarea id="message" required></textarea>
+                    <label>Message</label>
+                </div>
+                <button type="submit" class="btn-lrg submit-btn" id="sendMessageButton">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Website created and hosted by 
+            <a href="https://borjadelamora.com" target="_blank">Borja de la Mora</a> and Santiago Bareño.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        emailjs.init("f9UwB71oyv8Yl_UKE");
+
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const templateParams = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                message: document.getElementById('message').value
+            };
+
+            if (!templateParams.name || !templateParams.email || !templateParams.message) {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            emailjs.send('service_j5j5v8f', 'template_jqesob4', templateParams)
+                .then(function(response) {
+                    alert('Your message has been sent successfully!');
+                }, function(error) {
+                    alert('Failed to send the message. Please try again later.');
+                });
+        });
+    </script>
+</body>
+</html>
