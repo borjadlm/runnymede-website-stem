@@ -1,0 +1,12 @@
+body {
+    font-family: "Roboto", Arial;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    padding: min(60px, 10%) 0 0 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+
+

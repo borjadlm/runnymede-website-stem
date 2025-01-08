@@ -1,0 +1,66 @@
+.join-us-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin: none;
+    background-color: #203260;
+    height: 450px;
+    padding: 20px;
+    column-gap: 20px;
+}
+
+.join-us-title {
+    font-family: "Bebas Neue";
+    flex: 1;
+    color: white;
+    font-size: 130px;
+}
+
+.join-us-links {
+    flex: 2;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.join-us-info {
+    font-family: "Bebas Neue";
+    font-size: 70px;
+    margin: 30px 0 5px 0;
+    color: white;
+}
+
+.classroom-code {
+    font-size: 60px;
+    color: white;
+    margin: 0 0 30px 0;
+}
+
+.google-classroom-logo {
+    height: min(200px, 25vw);
+    transition: transform 0.4s;
+}
+.google-classroom-logo:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 680px) {
+    .join-us-container {
+        flex-direction: column;
+    }
+
+    .join-us-info {
+        font-size: 50px;
+    }
+
+    .classroom-code {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 920px) {
+    .join-us-container {
+        height: 550px;
+    }
+}

@@ -1,0 +1,47 @@
+
+  #news-container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: 0 15% 0 15%;
+  }
+
+  .news-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .article {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .article:hover {
+    transform: scale(1.02);
+  }
+  
+  .article img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .article h3 {
+    margin-top: 0.5rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #004080;
+    color: white;
+    margin-top: 2rem;
+  }
+  

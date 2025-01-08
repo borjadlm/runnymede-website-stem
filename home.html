@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        
+        <link rel="icon" href="/static/logos/rclogo.png" type="image/png">
+
+        <script src="/static/scripts/home.js"></script>
+        <script src="/static/scripts/experiments.js"></script>
+        <script src="/static/scripts/news.js"></script>
+
+        <link rel="stylesheet" href="/static/styles/animations.css">
+        <link rel="stylesheet" href="/static/styles/experiments.css">
+        <link rel="stylesheet" href="/static/styles/general.css">
+        <link rel="stylesheet" href="/static/styles/header.css">
+        <link rel="stylesheet" href="/static/styles/join-us.css">
+        <link rel="stylesheet" href="/static/styles/menu.css">
+        <link rel="stylesheet" href="/static/styles/main.css">
+        <link rel="stylesheet" href="/static/styles/news.css">
+        <link rel="stylesheet" href="/static/styles/contact.css">
+        <link rel="stylesheet" href="/static/styles/cern.css">
+    </head>
+    <header id="main-header">
+        <div class="left-section">
+        <div class="main-title">
+            Runnymede STEM Club
+        </div>
+        <button class="logo-container">
+            <a href="https://runnymede-college.com/" target="_blank">
+            <img class="runnymede-logo" src="/static/logos/rclogo.png" alt="Could Not Find image">
+            </a>
+            <div class="toollink">School Website</div>
+        </button>
+        </div>
+        <div class="right-section">
+        <button class="news-button">
+            <a href="news.html">
+            <img class="news-icon" src="/static/logos/news-icon.png">
+            </a>
+            <div class="toollink">Science News</div>
+        </button>
+        <button class="contact-us-button">
+            <a href="contact.html">
+            <img class="contact-us-icon" src="/static/logos/contact-us-icon.svg">
+            </a>
+            <div class="toollink">Contact Us</div>
+        </button>
+        <button id="menuButton" class="menu-button">
+            <img class="menu-icon" src="/static/logos/menu.svg" alt="Could not Find Image">
+        </button>
+        </div>
+        <div id="menu" class="menu">
+            <ul>
+                <li class="nav-element"><a href="#home">Home</a></li>
+                <li class="nav-element"><a href="#about">About</a></li>
+                <li class="nav-element"><a href="#experiments">Experiments</a></li>
+                <li class="nav-element"><a href="#join">Join Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <main>
+            <div class="main-section">
+                <div class="welcome-container">
+                <div class="welcome" id="home">
+                    A GATEWAY TO SCIENCE
+                </div>
+                </div>
+                <div class="intro-container">
+                <div class="intro-image-container">
+                    <img class="intro-image" src="/static/photos/exp1.jpeg">
+                </div>
+                <div class="intro-description">
+                    The Runnymede STEM Club is an organisation founded and solely led by students in which we 
+                    share our scientific knowledge with younger children from many backgrounds in the
+                    form of fun, challenging and interactive experiments. Our goal has always been 
+                    to impart our passion for the sciences, especially physics, that us Sixth Formers 
+                    have onto younger students, especially girls.
+                </div>
+                </div>
+                <hr>
+                <div class="about-us-grid" id="about">
+                    <div class="about-us-description">The gender gap in higher-level STEM classes is still real and tangible today. In the most advanced maths courses at our school, men dominate 13:1. In physics this is 9:1. We founded the STEM club to foster enthusiasm for science and technology equally in girls and boys, and believe the key to combating gender expectations and limitations at the root is to target younger students. In light of this, we carry out weekly practicals in school for 8- to 12-year-old students, allowing them to taste experimental science first-hand at earlier stages in school than would be available otherwise. We are also committed to spreading a love for science to disadvantaged communities, so we visit a charity to do experiments with underprivileged teens. Because we hold that this effort should be pursued years into the future, we train students to continue the club, teaching them to give back to their community and participate in progress, one person at a time.</div>
+                    <div class="about-us" id="swipe-to-left">ABOUT US</div>
+                </div>
+                <a class="cern-home-link" href="cern.html">More About CERN BL4S</a>
+                <hr>
+                <div class="experiments-section" id="experiments">
+                <div id="swipe-to-right" class="experiments-title">EXPERIMENTS</div>
+                <div class="experiments">
+                    <button class="experiment-box" data-experiment="exp1">
+                        <img class="experiment-image" src="/static/photos/exp1.jpeg" alt="Fire Hands">
+                        <div class="experiment-info">
+                            <div class="experiment-description">Fire Hands</div>
+                        </div>
+                    </button>
+                    <button class="experiment-box" data-experiment="exp2">
+                        <img class="experiment-image" src="/static/photos/exp2.jpeg" alt="Flame Tests">
+                        <div class="experiment-info">
+                            <div class="experiment-description">Flame Tests</div>
+                        </div>
+                    </button>
+                    <button class="experiment-box" data-experiment="exp3">
+                        <img class="experiment-image" src="/static/photos/exp3.jpeg" alt="pH Indicator">
+                        <div class="experiment-info">
+                            <div class="experiment-description">DIY pH Indicator</div>
+                        </div>
+                    </button>
+                    <button class="experiment-box" data-experiment="exp4">
+                        <img class="experiment-image" src="/static/photos/exp4.jpeg" alt="Static Electricity">
+                        <div class="experiment-info">
+                            <div class="experiment-description">Static Electricity Demo</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div id="experiment-popup" class="hidden">
+                <div class="popup-content">
+                    <button id="close-popup">&times;</button>
+                    <div id="popup-details"></div>
+                </div>
+            </div>
+            <div class="join-us-container" id="join">
+                <div class="join-us-title" id="swipe-to-right">Join Us</div>
+                <div class="join-us-links">
+                <div class="join-us-info">Google Classroom Code:</div>
+                <div class="classroom-code">pdwlxuy</div>
+                <div class="google-classroom"><a href="https://classroom.google.com/c/NzE3NTg2ODU2NDk4?cjc=pdwlxuy" target="_blank"><img class="google-classroom-logo" src="/static/logos/Google_Classroom_Logo.png"></a></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

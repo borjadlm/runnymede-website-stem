@@ -1,0 +1,180 @@
+
+
+#main-header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding-left: 20px;
+    align-items: center;
+    height: min(13vw, 80px);
+    background-color: rgb(255, 255, 255);
+    transition: box-shadow 0.3s ease;
+    z-index: 9999;
+}
+
+.header-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 10px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.runnymede-logo {
+    height: 45px;
+    cursor: pointer;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 50px;
+}
+
+@media (max-width: 810px) {
+    .main-title {
+        display: none;
+    }
+    .left-section {
+        margin-left: -10px;
+    }
+}
+
+.right-section {
+    display: flex;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    height: 60px;
+    padding-left: 10px;
+}
+
+.menu-icon {
+    height: 33px;
+}
+
+.menu-button {
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    padding: 0 5px 0 5px;
+    height: min(13vw, 80px);
+    width: min(13vw, 80px);
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.contact-us-icon {
+    height: 30px;
+}
+
+.contact-us-button {
+    position: relative;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    height: min(13vw, 80px);
+    width: min(13vw, 80px);
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.contact-us-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.news-icon {
+    height: 32px;
+}
+
+.news-button {
+    position: relative;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    height: min(13vw, 80px);
+    width: min(13vw, 80px);
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.news-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.home-icon {
+    height: 32px;
+}
+
+.home-button {
+    position: relative;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    margin-right: 15px;
+    height: min(13vw, 80px);
+    width: min(13vw, 80px);
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.toollink {
+    z-index: 1000;
+    position: absolute;
+    top: min(65px, 12vw);
+    padding: 6px;
+    white-space: nowrap;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    border-radius: 4px;
+    font-size:  min(12px, 4vw);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    transition-delay: 0.1s;
+}
+
+button:hover .toollink {
+    opacity: 1;
+}
+
+.nav-element {
+    background-color: rgb(255, 255, 255);
+}
+

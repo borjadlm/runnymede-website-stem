@@ -1,0 +1,46 @@
+#swipe-to-left, #swipe-to-right {
+    width: auto;
+    height: auto;
+    background-color: none;
+    position: relative;
+    opacity: 0; /* Hidden initially */
+    transition: opacity 0.5s ease; /* Fade-in effect */
+}
+
+/* Left to right animation */
+#swipe-to-right {
+    left: -100px; /* Start outside the viewport on the left */
+}
+
+#swipe-to-right.animate {
+    animation: swipe-left 2s forwards;
+    opacity: 1; /* Show when animation starts */
+}
+
+@keyframes swipe-left {
+    0% {
+        left: -600px; /* Starting off-screen */
+    }
+    100% {
+        left: 20px; /* Stop at 200px from the left edge of the viewport */
+    }
+}
+
+/* Right to left animation */
+#swipe-to-left {
+    right: -300px; /* Start outside the viewport on the right */
+}
+
+#swipe-to-left.animate {
+    animation: swipe-right 2s forwards;
+    opacity: 1; /* Show when animation starts */
+}
+
+@keyframes swipe-right {
+    0% {
+        right: -600px; /* Starting off-screen */
+    }
+    100% {
+        right: 20px; /* Stop at 200px from the right edge of the viewport */
+    }
+}

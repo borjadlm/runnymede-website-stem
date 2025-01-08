@@ -1,0 +1,47 @@
+.menu {
+    display: none; /* Hide the menu by default */
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.menu.show {
+    display: block; /* Show the menu */
+    opacity: 1; /* Make the menu visible */
+    transform: translateY(0); /* Reset the slide-up transformation */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    border-bottom: 1px solid #ddd;
+}
+
+.menu ul li:last-child {
+    border-bottom: none;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #e9ecef;
+}
