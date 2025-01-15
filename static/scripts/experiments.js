@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const experiments = {
         exp1: {
             title: "Fire Hands",
-            image: "/static/photos/exp1.jpeg",
+            image: "/static/photos/Stem/exp1.jpeg",
             description: `
                 <strong>Materials:</strong>
                 <ul>
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         exp2: {
             title: "Flame Tests",
-            image: "/static/photos/exp2.jpeg",
+            image: "/static/photos/Stem/exp2.jpeg",
             description: `
                 <strong>Materials:</strong>
                 <ul>
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         exp3: {
             title: "DIY pH Indicator",
-            image: "/static/photos/exp3.jpeg",
+            image: "/static/photos/Stem/exp3.jpeg",
             description: `
                 <strong>Materials:</strong>
                 <ul>
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         exp4: {
             title: "Static Electricity Demo",
-            image: "/static/photos/exp4.jpeg",
+            image: "/static/photos/Stem/exp4.jpeg",
             description: `
                 <strong>Materials:</strong>
                 <ul>
