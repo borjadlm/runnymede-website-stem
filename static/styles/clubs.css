@@ -28,12 +28,9 @@
     transform: scale(1.1);
 }
 
-.clubs-image {
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    overflow: hidden;
-    border-radius: 10px;
+.clubs-text {
+    font-family: "Bebas Neue";
+    font-size: min(170px, 25vw);
 }
 
 .clubs-info {
