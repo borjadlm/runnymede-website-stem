@@ -77,6 +77,31 @@ document.addEventListener('DOMContentLoaded', function() {
                 </ol>
             `,
         },
+        exp5: {
+            title: "Strawberry DNA Extraction",
+            image: "/static/photos/Stem/exp4.jpeg",
+            description: `
+                <strong>Materials:</strong>
+                <ul>
+                    <li>Beaker, funnel and sieve, spoon, wooden splint</li>
+                    <li>Soap, salt and iced down ethanol solution</li>
+                    <li>Beaker, funnel and sieve, spoon, wooden splint</li>
+                    <li>Plastic bag</li>
+                    <li>Strawberries</li>
+                </ul>
+                <hr>
+                <strong>Method:</strong>
+                <ol>
+                    <li>Place the strawberries in the plastic bag and start breaking them down into a pulp with your hands to break the cells.</li>
+                    <li>In a beaker, put one tablespoon of salt and two tablespoons of soap.</li>
+                    <li>Add water and mix gently to prevent any bubble from forming.</li>
+                    <li>Add the soap and salt solution into the plastic bag.</li>
+                    <li>Mix the strawberry pulp with the salt and salt solution gently.</li>
+                    <li>Pour this mixture back into the beaker using the sieve and funnel and add iced down ethanol solution on top.</li>
+                    <li>White strings will appear. Pick it up using a wooden splint. That is the strawberry DNA!</li>
+                </ol>
+            `,
+        },
     };
 
     // Open popup on experiment box click
