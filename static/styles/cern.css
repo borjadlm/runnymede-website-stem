@@ -48,7 +48,7 @@
 }
 
 .cern-2024 img {
-    height: 30vw;
+    height: 35vw;
     margin-right: 30px;
     border-radius: 8px;
 }
@@ -57,7 +57,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 30vw;
+    height: 35vw;
     width: 100%;
 }
 
