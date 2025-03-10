@@ -124,6 +124,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 </ol>
             `,
         },
+        exp7: {
+            title: "Egg in a bottle",
+            image: "/static/photos/Stem/exp4.jpeg",
+            description: `
+                <strong>Materials:</strong>
+                <ul>
+                    <li>Hard boiled egg (shell removed)</li>
+                    <li>Glass Bottle</li>
+                    <li>Cotton and fuel (usually ethanol)</li>
+                    <li>Match or lighter</li>
+                </ul>
+                <hr>
+                <strong>Method:</strong>
+                <ol>
+                    <li>Place the egg on the mouth of the bottle and make sure the egg doesn't fit through.</li>
+                    <li>Remove the egg from the mouth of the bottle.</li>
+                    <li>Wash your hands with cold water and keep them wet to ensure not getting burnt.</li>
+                    <li>⁠Take the piece of cotton and soak it with ethanol.</li>
+                    <li>⁠Light the piece of Cotton and drop it quickly inside the bottle.</li>
+                    <li>⁠Very quickly place the egg on the mouth of the bottle.</li>
+                    <li>Watch as the egg gets sucked into the bottle.</li>
+                </ol>
+            `,
+        },
     };
 
     // Open popup on experiment box click
