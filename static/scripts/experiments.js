@@ -148,6 +148,31 @@ document.addEventListener('DOMContentLoaded', function() {
                 </ol>
             `,
         },
+        exp8: {
+            title: "Baking Soda and Vinegar",
+            image: "/static/photos/Stem/exp4.jpeg",
+            description: `
+                <strong>Materials:</strong>
+                <ul>
+                    <li>Vinegar</li>
+                    <li>Baking Soda</li>
+                    <li>Empty bottle</li>
+                    <li>2 Balloons</li>
+                </ul>
+                <hr>
+                <strong>Method:</strong>
+                <ol>
+                    <li>Remove the cap of the empty bottle and pour vinegar into the bottle.</li>
+                    <li>Add a couple of spatulas of baking soda into the bottle.</li>
+                    <li>Quickly attach a balloon to the mouth of the bottle.</li>
+                    <li>⁠Watch the balloon inflate.</li>
+                    <li>Once the balloon no longer grows, remove it and tie it to trap the gas inside.</li>
+                    <li>Inflate a new balloon with air.</li>
+                    <li>Compare how fast these two balloons fall to reach the ground after dropping them from the same height.</li>
+                    <li>The balloon made with vinegar and baking soda falls faster because it is filled with carbon dioxide, which is heavier than air.</li>
+                </ol>
+            `,
+        },
     };
 
     // Open popup on experiment box click
