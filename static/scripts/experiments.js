@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         exp5: {
             title: "Strawberry DNA Extraction",
-            image: "/static/photos/Stem/exp4.jpeg",
+            image: "/static/photos/Stem/exp5.jpeg",
             description: `
                 <strong>Materials:</strong>
                 <ul>
@@ -99,6 +99,28 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li>Mix the strawberry pulp with the salt and salt solution gently.</li>
                     <li>Pour this mixture back into the beaker using the sieve and funnel and add iced down ethanol solution on top.</li>
                     <li>White strings will appear. Pick it up using a wooden splint. That is the strawberry DNA!</li>
+                </ol>
+            `,
+        },
+        exp6: {
+            title: "Colour-changing milk",
+            image: "/static/photos/Stem/exp4.jpeg",
+            description: `
+                <strong>Materials:</strong>
+                <ul>
+                    <li>Milk</li>
+                    <li>Colour dyes</li>
+                    <li>Liquid soap</li>
+                    <li>Cotton swabs</li>
+                    <li>Plate</li>
+                </ul>
+                <hr>
+                <strong>Method:</strong>
+                <ol>
+                    <li>Pour a layer of milk on the plate.</li>
+                    <li>Apply several drops of dye to the milk’s surface (you can mix colors!).</li>
+                    <li>Dip the cotton swab on liquid soap.</li>
+                    <li>⁠With the swab touch the milk in the middle of the dish.</li>
                 </ol>
             `,
         },
