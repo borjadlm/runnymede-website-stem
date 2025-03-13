@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         exp6: {
             title: "Colour-changing milk",
-            image: "/static/photos/Stem/exp4.jpeg",
+            image: "/static/photos/Stem/exp6.jpeg",
             description: `
                 <strong>Materials:</strong>
                 <ul>
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         exp8: {
             title: "Baking Soda and Vinegar",
-            image: "/static/photos/Stem/exp4.jpeg",
+            image: "/static/photos/Stem/exp8.jpeg",
             description: `
                 <strong>Materials:</strong>
                 <ul>
