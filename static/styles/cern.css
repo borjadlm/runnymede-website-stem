@@ -72,6 +72,13 @@
     margin: 0;
 }
 
+.cern-projects text {
+    font-family: "Bebas Neue";
+    font-weight: 10;
+    font-size: 40px;
+    margin: 20;
+}
+
 .cern-projects a {
     margin-top: 5px;
 }
