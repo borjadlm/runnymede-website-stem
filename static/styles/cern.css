@@ -39,11 +39,11 @@
 
 .cern-2024 {
     background-color: rgb(195, 202, 222);
-    height: 60vw;
+    height: 70vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 30px 0 30px;
+    padding: 0 20px 0 20px;
     border-radius: 8px;
 }
 
