@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <strong>Method:</strong>
                 <ol>
                     <li>Pour a layer of milk on the plate.</li>
-                    <li>Apply several drops of dye to the milk’s surface (you can mix colors!).</li>
+                    <li>Apply several drops of dye to the milk's surface (you can mix colors!).</li>
                     <li>Dip the cotton swab on liquid soap.</li>
                     <li>⁠With the swab touch the milk in the middle of the dish.</li>
                 </ol>
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li>Remove the cap of the empty bottle and pour vinegar into the bottle.</li>
                     <li>Add a couple of spatulas of baking soda into the bottle.</li>
                     <li>Quickly attach a balloon to the mouth of the bottle.</li>
-                    <li>⁠Watch the balloon inflate.</li>
+                    <li⁠>Watch the balloon inflate.</li>
                     <li>Once the balloon no longer grows, remove it and tie it to trap the gas inside.</li>
                     <li>Inflate a new balloon with air.</li>
                     <li>Compare how fast these two balloons fall to reach the ground after dropping them from the same height.</li>
