@@ -3,5 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
         BPhO: {
             title: "BPhO",
         },
+        Astro: {
+            title: "Astro Olympiad",
+        },
+        Chem: {
+            title: "Chemistry Olympiad",
+        },
     };
 }
