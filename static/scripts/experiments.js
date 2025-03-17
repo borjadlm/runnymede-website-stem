@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         exp5: {
             title: "Strawberry DNA Extraction",
-            image: "/static/photos/Stem/exp5.jpeg",
+            image: "/static/photos/Stem/exp5.png",
             description: `
                 <strong>Materials:</strong>
                 <ul>
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         exp6: {
             title: "Colour-changing milk",
-            image: "/static/photos/Stem/exp6.jpeg",
+            image: "/static/photos/Stem/exp6.jpg",
             description: `
                 <strong>Materials:</strong>
                 <ul>
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         exp8: {
             title: "Baking Soda and Vinegar",
-            image: "/static/photos/Stem/exp8.jpeg",
+            image: "/static/photos/Stem/exp8.jpg",
             description: `
                 <strong>Materials:</strong>
                 <ul>
