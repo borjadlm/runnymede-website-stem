@@ -1,10 +1,10 @@
-.cern-title {
+.engin-title {
     margin: 15px 0.5% 10px 0.5%;
     margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #203260;
+    background-color: #4c916a;
     margin-bottom: 10px;
     height: clamp(80px, 14vw, 140px);
     font-family: "Bebas Neue";
@@ -12,7 +12,7 @@
     color: white;
 }
 
-.cern-main-container {
+.engin-main-container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,24 +20,34 @@
     margin: 1% 1% 0 1%;
 }
 
-.about-cern {
+.about-engin {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 100px;
 }
 
-.about-cern img {
+.about-engin img {
     height: 20vw;
     margin: 0 3vw 0 3vw;
 }
 
-.about-cern div {
+.about-engin div {
     line-height: 3vw;
     text-wrap: balance;
 }
 
-.cern-2024 {
+.engin-bigbox {
+    background-color: rgb(195, 202, 222);
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    border-radius: 8px;
+}
+
+.engin-entry {
     background-color: rgb(195, 202, 222);
     height: 70vw;
     display: flex;
@@ -47,13 +57,13 @@
     border-radius: 8px;
 }
 
-.cern-2024 img {
+.engin-entry img {
     height: 35vw;
     margin-right: 30px;
     border-radius: 8px;
 }
 
-.cern-projects {
+.engin-projects {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -61,23 +71,23 @@
     width: 100%;
 }
 
-.cern-projects div {
+.engin-projects div {
     line-height: 3vw;
 }
 
-.cern-projects h2 {
+.engin-projects h2 {
     font-family: "Bebas Neue";
     font-weight: 400;
     font-size: 2.5vw;
     margin: 0;
 }
 
-.cern-projects text {
+.engin-projects text {
     font-weight: 1;
     font-size: 18px;
     margin: 10;
 }
 
-.cern-projects a {
+.engin-projects a {
     margin-top: 5px;
 }
