@@ -48,7 +48,7 @@
 }
 
 .engin-entry {
-    background-color: rgb(195, 202, 222);
+    background-color: white;
     height: 70vw;
     display: flex;
     flex-direction: row;
