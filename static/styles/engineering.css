@@ -1,1 +1,83 @@
+.cern-title {
+    margin: 15px 0.5% 10px 0.5%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #203260;
+    margin-bottom: 10px;
+    height: clamp(80px, 14vw, 140px);
+    font-family: "Bebas Neue";
+    font-size: clamp(60px, 10vw, 100px);
+    color: white;
+}
 
+.cern-main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 20px 15px 20px;
+    margin: 1% 1% 0 1%;
+}
+
+.about-cern {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.about-cern img {
+    height: 20vw;
+    margin: 0 3vw 0 3vw;
+}
+
+.about-cern div {
+    line-height: 3vw;
+    text-wrap: balance;
+}
+
+.cern-2024 {
+    background-color: rgb(195, 202, 222);
+    height: 70vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    border-radius: 8px;
+}
+
+.cern-2024 img {
+    height: 35vw;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+.cern-projects {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70vw;
+    width: 100%;
+}
+
+.cern-projects div {
+    line-height: 3vw;
+}
+
+.cern-projects h2 {
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.cern-projects text {
+    font-weight: 1;
+    font-size: 18px;
+    margin: 10;
+}
+
+.cern-projects a {
+    margin-top: 5px;
+}
