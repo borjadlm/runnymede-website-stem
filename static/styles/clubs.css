@@ -5,8 +5,7 @@
 }
 
 .clubs {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
     margin-left: 20px;
     margin-right: 20px;
     column-gap: 30px;
@@ -17,9 +16,10 @@
     position: relative;
     flex: 1;
     padding: 0;
-    height: 50px;
+    height: 60px;
     border: #203260;
     background-color: white;
+    color: #203260;
     transition: transform 0.5s;
 }
 
@@ -58,19 +58,9 @@
     flex-direction: column;
 }
 
-.clubs-info:hover {
-    opacity: 1;
-    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
-}
-
-.clubs-info:hover .clubs-description {
-    transform: translateY(0);
-    overflow: hidden;
-    opacity: 1;
-}
 
 @media (min-width: 800px) and (max-width: 1000px) {
-    .experiments {
+    .clubs {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
