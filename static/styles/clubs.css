@@ -20,13 +20,8 @@
     border: #203260;
     background-color: white;
     color: #203260;
+    text-decoration: none;
     transition: transform 0.5s;
-}
-
-
-.clubs-box: hover {
-    background-color: #203260;
-    color: white;
 }
 
 
