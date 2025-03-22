@@ -38,7 +38,7 @@
 }
 
 .engin-bigbox {
-    background-color: rgb(195, 202, 222);
+    background-color: #A2F0C4;
     width: 40 vw;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
 }
 
 .engin-entry {
-    background-color: white;
+    background-color: #A2F0C4;
     height: 50vw;
     display: flex;
     flex-direction: row;
@@ -65,9 +65,8 @@
 
 .engin-projects {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    height: 70vw;
+    height: 35vw;
     width: 100%;
 }
 
