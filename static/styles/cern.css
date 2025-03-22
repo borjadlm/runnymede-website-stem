@@ -67,7 +67,7 @@
 
 .cern-projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
     height: 70vw;
     width: 100%;
