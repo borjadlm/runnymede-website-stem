@@ -31,7 +31,7 @@
     margin-right: 10px;
     width: 100%;
     color: #010101;
-    text-decoration: none; 
+    text-decoration: none !important; 
     white-space: nowrap;
 }
 
