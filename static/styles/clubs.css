@@ -25,6 +25,11 @@
     transition: transform 0.5s;
 }
 
+.clubs-box:hover {
+    background-color: #203260;
+    color: white;
+}
+
 
 .clubs-title {
     font-family: "Bebas Neue";
