@@ -26,8 +26,8 @@
 }
 
 .main-title {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 40px !important;
+    font-weight: 700 !important;
     margin-right: 10px;
     width: 100%;
     color: #010101;
