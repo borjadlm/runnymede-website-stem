@@ -19,11 +19,12 @@
     height: 60px;
     border-radius: 5px;
     border: #203260;
+    border-width: 2px;
     background-color: white;
     color: #203260;
     text-decoration: none;
-    align-items: center:
-    justify-content: center:
+    align-items: center;
+    justify-content: center;
     transition: transform 0.5s;
 }
 
