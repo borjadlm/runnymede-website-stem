@@ -58,7 +58,8 @@
 }
 
 .engin-entry img {
-    height: 40px;
+    max-height:30vw;
+    max-width:50%;
     margin-right: 30px;
     border-radius: 8px;
 }
