@@ -66,7 +66,7 @@
 .engin-projects {
     display: flex;
     flex-direction: column;
-    height: 35vw;
+    height: auto;
     width: 100%;
 }
 
