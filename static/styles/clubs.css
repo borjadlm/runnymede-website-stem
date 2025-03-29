@@ -23,7 +23,7 @@
     background-color: white;
     color: #203260;
     text-decoration: none;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     transition: transform 0.5s;
 }
