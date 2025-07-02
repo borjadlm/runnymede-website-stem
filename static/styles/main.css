@@ -117,22 +117,22 @@
     color: white;
 }
 
-.cern-home-link {
+.engin-home-link {
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
     padding: 0.6vw;
-    color: #203260;
+    color: #5a8746;
     font-weight: 600;
-    border: 2px, solid #203260;
+    border: 2px, solid #5a8746;
     border-radius: 12px;
     margin-bottom: 2vw;
     transition: background-color 0.4s;
 }
 
-.cern-home-link:hover {
-    background-color: #203260;
+.engin-home-link:hover {
+    background-color: #5a8746;
     color: white;
 }
